@@ -3,7 +3,7 @@ html, body {
     min-height: 100vh;
     background: #FFF;
     margin: 0;
-    
+
 }
 .topheader-container {
     width: 1400px;
@@ -291,6 +291,7 @@ html, body {
     font-weight: 700;
     line-height: normal;
     margin-top: 3px;
+    margin-bottom: 22px;
 }
 .sub-title {
     color: #2F281E;
@@ -326,23 +327,17 @@ html, body {
     display: flex;
     flex-direction: column;
 }
-.checkbox-icon {
-    width: 35px;
-    height: 35px;
-    flex-shrink: 0;
-    float: inline-start;
-    padding: 30px; 
+.checkbox {  
     display: flex;
-}
-.checkbox {
+    margin-bottom: 27px;
     color: #544837;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 26px; /* 162.5% */
-    text-align: start;
-    display: inline  
+    text-align: left;
+    gap: 30px;
 }
 .section2-image {
     width: 535px;

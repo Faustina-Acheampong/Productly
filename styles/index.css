@@ -163,6 +163,7 @@ html, body {
 .title-btn:hover {
     transform: scale(1.2);
 }
+   /*not sure if this displayed correctly*/
 .triangle {
     width: 20px;
     height: 17px;

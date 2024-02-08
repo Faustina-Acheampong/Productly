@@ -372,11 +372,10 @@ body {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    gap: 35px;
-    width: 118px;
-    height: 205px;
-    margin-top: 103px;
+    align-items: flex-start;  
+    width: 72px;
+    height: 140px;
+    margin-top: 167px;
     margin-left: 324px;
 
 }
@@ -389,15 +388,17 @@ body {
     line-height: 35px; /* 218.75% */
     text-decoration: none;
 }
+.quicklinks a:hover {
+    color: blue;
+}
 .legal {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 35px;
-    width: 131px;
-    height: 205px;
-    margin-top: 103px;
+    width: 133px;
+    height: 140px;
+    margin-top: 167px;
     margin-left: 175px;
 }
 .legal a {
@@ -408,4 +409,7 @@ body {
     font-weight: 400;
     line-height: 35px; /* 218.75% */
     text-decoration: none;
+}
+.legal a:hover {
+    color: blue;
 }

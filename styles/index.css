@@ -44,7 +44,11 @@ html, body {
     margin-top: 24px;
     margin-bottom: 26px;
     margin-left: 320px;
-    display: flex;  
+    display: flex;   
+}
+.nav ul li {
+    list-style-type: none;
+    display: inline-flex;
 }
 .nav a {
     color: #2F281E;
@@ -330,6 +334,7 @@ html, body {
 }
 .checkbox {  
     display: flex;
+    align-items: ;
     margin-bottom: 27px;
     color: #544837;
     font-family: Arial, Helvetica, sans-serif;
